@@ -1,4 +1,4 @@
-#!/bin/bash
+#! /bin/bash
 
 sudo yum install wget php-mysqlnd httpd php-fpm php-mysqli mariadb105-server php-json php php-devel -y
 sudo wget https://wordpress.org/latest.tar.gz
