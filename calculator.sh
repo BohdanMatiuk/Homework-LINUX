@@ -6,7 +6,6 @@ echo
 read -p "Input 2nd Number  " num2
 echo
 echo
-quotient=q1
 echo "The Sum is: " $((num1+$num2))
 echo "The Difference is: " $((num1-$num2))
 echo "The Product is: " $((num1*$num2))
