@@ -13,7 +13,7 @@ elif [ $temp -ge 151 ] && [ $temp -le 160 ]; then
 elif [ $temp -ge 161 ] && [ $temp -le 170 ]; then
 	echo "Well Done"
 else 
-	echo "stay away from a kitchen"
+	echo "use range between 120 and 170 degrees"
 
 fi
 
