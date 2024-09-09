@@ -12,7 +12,7 @@ elif [ $temp -ge 151 ] && [ $temp -le 160 ]; then
 	echo "Medium well"
 elif [ $temp -ge 161 ] && [ $temp -le 170 ]; then
 	echo "Well Done"
-elif [ $temp -lt 120 ] || [ $temp -gt 170 ]; then
+else 
 	echo "stay away from a kitchen"
 
 fi
