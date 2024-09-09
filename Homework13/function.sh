@@ -9,10 +9,7 @@ function ONE() {
 }
 
 function TWO() {
-	sudo yum install wget -y > /dev/null
-	sudo yum install httpd -y > /dev/null
-	sudo yum install tree -y > /dev/null
-	sudo yum install git -y > /dev/null
+	sudo yum install wget httpd tree git -y > /dev/null
 }
 
 echo -e "1-Create Users and Files\n2-Install Packages"
